@@ -38,6 +38,10 @@ function myResult(){
     if(inputType === "kilometer" && resultType === "centimeter"){
         result.value = input.value * 100000  + ' cm'
     }
+
+    if(inputType === resultType){
+        alert("Não é possivel realizar a conversão com duas unidades de medidas iguais!")
+    }
 }
 
 

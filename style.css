@@ -1,9 +1,18 @@
 body{
     margin: 0px;
     padding: 0px;
+    
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black,rgb(103, 130, 204));
+    height: 100vh;
+  
 }
 
 .converter-body{
+    border: solid 5px black;
+    border-radius: 50px;
     width: 400px;
     height: 150px;
     position: absolute;
@@ -11,6 +20,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 2px 1px #cacaca;
+    background-color: rgb(255, 255, 255);
+    
 
 }
 
@@ -19,21 +30,42 @@ body{
     margin: 13px 0px;
 }
 
-input{
+span{
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+}
+
+.input{
     height: 25px;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.result{
+    height: 25px;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
 }
 
 #input{
     margin-left: 25px;
 }
 
-#inputType, #resultType{
-    width: 166.66px;
-    margin-left: 25px;
+#inputType{
+    width: 178.66px;
+    position: relative;
+    left: 10px;
+    
 }
 
 
 
 #resultType{
-    margin-left: 24px;
+    position: relative;
+    right: 25px;
+    width: 178.66px;
+    left: 31px;
 }
